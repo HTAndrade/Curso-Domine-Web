@@ -1,0 +1,179 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+.header{
+    background: #333333;
+    width: 100%;
+    color: #fff;
+    margin: 0 auto;
+    text-align: center;
+    padding: 12px 12px;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0px;
+    opacity: .981;
+    
+}
+
+.header img {
+    width: 16px;
+    cursor: pointer;
+}
+
+.header-menu {
+    color: #f5f5f7;
+    text-decoration: none;
+    font-size: 12px;
+    padding: 21px;
+    opacity: .8;
+    transition: opacity 0.3s cubic-bezier(0.25, 0.1, 0.25, 1);
+    
+    
+
+}
+
+.header-menu:hover {
+    text-decoration: none;
+    opacity: 1;
+}
+
+.campanha {
+    background: #F5F5F7;
+    display: flex;
+    align-items: center;
+    padding: 20px 0px;
+    text-align: center;
+    justify-content: center;
+    margin-top: 45px;
+}
+
+.campanha a {
+    color: #0066cc;
+    text-decoration: none;
+    padding: 0px 0px 0px 14px;
+    font-size: 14px;
+}
+.campanha a:hover {
+    text-decoration: underline;
+}
+
+.back {
+    background-image: url(./img/iphone1.jpg);
+    height: 725px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-color: #FBFBFD;
+    background-position: top;
+    margin-bottom: 10px;
+    
+}
+
+.back2 {
+    background-image: url(./img/iphone2.jpg);
+    height: 725px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-color: #FBFBFD;
+    background-position: top;
+    margin-bottom: 10px;
+    padding-bottom: -20px;    
+}
+
+.back3{
+    background-image: url(./img/ipad.jpg);
+    color: white;
+} 
+
+
+.container0 {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    font-size: 20px;
+}
+
+.container1 {
+    display: flex;
+    margin-top: 64px;
+    justify-content: center;
+    
+}
+.containerse {
+    display: flex;
+    margin-top: 0px;
+    justify-content: center;
+    
+    
+}
+
+.iphone {
+    font-size: 50px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.container2 {
+    display: flex;
+    justify-content: center;
+}
+
+.pos_iphone{
+    font-size: 26px;
+    margin-top: 0px;
+    text-align: center;
+}
+
+.pos_iphone2{
+    font-size: 20px;
+    margin-top: 0px;
+    text-align: center;
+    color: #AEAEB1
+}
+
+.pos_iphone_escuro{
+    font-size: 26px;
+    margin-top: 0px;
+    text-align: center;
+}
+
+.pos_iphone2_escuro{
+    font-size: 20px;
+    margin-top: 0px;
+    text-align: center;
+    color: #AEAEB1
+}
+
+
+.container3 {
+    margin-top: 0px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.saiba_mais {
+    text-decoration: none;
+    color: #0066cc;
+}
+.saiba_mais:hover {
+    text-decoration: underline;
+}
+
+.container4 {
+    margin-top: 0px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.comprar {
+    text-decoration: none;
+    color: #0066cc;
+    margin: 0 0 0 32px;
+}
+
+.comprar:hover {
+    text-decoration: underline;
+}
+

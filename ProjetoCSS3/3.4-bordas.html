@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>     
+    <head>
+        <meta charset="UTF-8">
+        <title>Bordas</title>
+        <style type="text/css">
+            
+            #conteudo {
+                /*
+                border:10px solid red;*/
+                border-color: red green
+                    yellow blue;
+                border-width: 15px 10px 8px 3px;
+                border-style: solid dotted 
+                    dashed outset;
+            }
+
+            #conteudo2 {
+                /*
+                border:10px solid red;*/
+                border-color: red green;
+                border-width: 15px 10px;
+                border-style: solid dotted double ;
+                /*
+                1º elemento: Modifica tudo ou cima e baixo;
+                2º elemento: Modifica direita e esquerda ou só a direita;
+                3º elemento: Modifica somente baixo;
+                4º elemento: Modifica somente a esquerda;
+
+                Se adicionado somente 1 elemento:
+                    R: Modifica toda a borda;
+                
+                Se adicionado 2 elementos:
+                    R: Modifica cima/baixo igual ao 1º elemento,
+                    e direita/esquerda igual ao 2º elemento;
+
+                Se adicionado 3 elementos:
+                    R: Modifica cima igual ao 1º elemento, baixo igual
+                    ao 3º elemento e direita/esquerda igual ao 2º elemento;
+                
+                Se adicionado 4 elementos:
+                    R: Modifica cima igual ao 1º elemento, baixo igual
+                    ao 3º elemento e direita igual ao 2º elemento e
+                    esquerda igual ao 4º elemento;
+                
+                Ex. de bordas:
+                p.dotted {border-style: dotted;}
+                p.dashed {border-style: dashed;}
+                p.solid {border-style: solid;}
+                p.double {border-style: double;}
+                p.groove {border-style: groove;}
+                p.ridge {border-style: ridge;}
+                p.inset {border-style: inset;}
+                p.outset {border-style: outset;}
+                p.none {border-style: none;}
+                p.hidden {border-style: hidden;}
+                p.mix {border-style: dotted dashed solid double;}    
+                */
+            
+            }
+
+        </style>
+            
+    </head>
+    <body>
+
+        <div id="conteudo">
+            Bordas<br>
+            Bordas<br>
+            Bordas<br>
+        </div>
+        <br><br>
+        <div id="conteudo2">
+            Bordas<br>
+            Bordas<br>
+            Bordas<br>
+        </div>
+         
+    </body>
+</html>

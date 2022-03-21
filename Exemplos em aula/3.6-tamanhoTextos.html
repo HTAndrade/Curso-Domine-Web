@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>    
+    <head>
+        <meta charset="UTF-8">
+        <title>Tamanho de textos</title>
+        
+        <style type="text/css">
+            /*
+            px = tamanho fixo;
+            % = tamanho relativo;
+            em = tamanho relativo ao
+            container pai;
+            
+            16px é o tamanho padrão que o browser considerar 
+            para os textos. Ao definir tamanho 100%, isso quer
+            dizer que o browser vai considerar o tamanho 100%
+            com relação ao padrão;
+            
+            O "em" é o equivalente ao definido como padrão do
+            container pai, ou seja, "1em" é o mesmo que foi definido
+            ao container, logo "2em" é o dobro do que foi definido ao container
+            pai. Lembrando que a tag "body" tambem é um container.
+
+            */
+            div {
+                font-size: 80px;
+            }
+            
+            .texto{
+                /*font-size: 200%;*/
+                font-size: 2em;
+            }
+
+            .texto2 {
+                font-size: 1em;
+            }
+
+        </style>
+            
+    </head>
+    <body>
+        
+        <div>
+
+        <p class="texto">Conteúdo 1</p>
+        <p class="texto2">Conteúdo 2</p>
+
+        </div>
+        <br>
+        <a href="1-primeiraPagina.html">
+            Home - Capítulos
+        </a> 
+    </body>
+</html>

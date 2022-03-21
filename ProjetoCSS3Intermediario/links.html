@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Links</title>
+
+    <style type="text/css">
+
+        body {
+            padding: 0;
+            margin: 0;
+        }
+
+        .menu {
+            background-color: black;
+            padding: 0;
+            margin: 0;
+            position: fixed;
+            width: 100%;
+            height: 50px;
+            align-items: center;
+            text-align: center;
+            justify-content: center;
+            box-sizing: border-box;
+            display: flex;
+            
+            
+        }    
+
+        a {
+            padding: 5px 15px;
+            background-color: black;
+            text-decoration: none;
+        }
+
+        /*Links não Visitados*/
+        a:link {
+            color: #b9c941;
+        }
+
+        /*Links Visitados*/
+        a:visited {
+            color: #c0c0c0;
+        }
+
+        /*Links Hover, passa o cursor sobre o link*/
+        a:hover {
+            background-color: #fff;
+            color: #6d790f;
+            transition: 0.5s;
+            padding: 20px;
+            border: solid 1px black;
+            border-radius: 2px;
+        }
+
+        /*Links Ativos, quando clicado*/
+        a:active {
+            color: #e4f371;
+        }
+
+        .page {
+            color: black;
+            position: absolut;
+        }
+
+
+    </style>
+</head>
+<body>
+    
+    <div class="menu">
+    <a href="https://www.google.com">Google</a> 
+    <a href="https://www.tecmundo.com.br">Tec mundo</a> 
+    <a href="https://www.megacurioso.com.br">Mega Curioso</a> 
+    <a href="https://www.YouTube.com.br">YouTube</a>
+    </div>
+    
+</body>
+</html>
