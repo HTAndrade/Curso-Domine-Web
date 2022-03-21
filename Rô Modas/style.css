@@ -1,0 +1,104 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+
+body {
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    background-color: #c7c7c7;
+}
+
+#area-topo {
+    background-color: #4e4e4e;
+    text-align: center;
+}
+
+#area-logo{
+    padding: 15px;
+    color: #fff;
+    font-size: 30px;
+    padding-left: 10px;
+}
+
+#area-menu a:link, #area-menu a:visited {
+    padding: 8px 12px;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.2s;
+    border-radius: 5px;
+}
+
+#area-menu a:hover {
+    background: #fff;
+    padding: 10px 15px;
+    color: #4e4e4e;    
+}
+
+#area-redes {
+    text-align: right;
+}
+
+#area-principal {
+    width: 920px;
+    margin: 10px auto;
+}
+
+#area-categorias {
+    width: 240px;
+    padding: 5px;
+    float: left;
+    background-color: #fff;
+}
+
+#area-itens {
+    text-align: center;
+    width: 650px;
+    background-color: #fff;
+    float: right;
+    padding: 5px;
+}
+
+#area-rodape {
+    clear: both;
+    padding: 20px;
+    text-align: center;
+    background: #4e4e4e;
+    color: #fff;
+}
+
+/*-- Formatação Geral --*/
+
+#area-categorias h2 {
+    background: #4e4e4e;
+    color: #fff;
+    padding: 5px;
+}
+
+#area-categorias h3 {
+    margin: 5px 5px 0px;
+    font-size: 1.2em;
+    
+}
+#area-categorias li {
+    font-size: 0.9em;
+    margin-left: 20px;    
+}
+#area-categorias a:link, #area-categorias a:visited {
+    text-decoration: none; 
+    color: #4e4e4e;
+}
+
+#area-categorias a:hover {
+    text-decoration: underline; 
+}
+
+#area-itens a:hover {
+    background: #4e4e4e;
+
+}
+
+hr {
+    margin: 5px;
+}
+
