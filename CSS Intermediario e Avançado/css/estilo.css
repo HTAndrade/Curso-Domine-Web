@@ -1,0 +1,80 @@
+
+/* Seletor Universal */
+* {
+    border: solid 1px red;
+}
+
+/* Seletor de texto */
+h1 {
+    color: green;
+    text-align: center;
+}
+
+/* Seletor de Classe */
+
+.link {
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+}
+
+span.link {
+    color: green;
+}
+
+/* Seletor de id */
+
+#link2 {
+    font-size: 60px;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    width: 200px;
+}
+
+p#link2 {
+    font-size: 30px;
+    color: green;
+}
+
+/* Seletor de filho */
+
+li>a {
+    text-decoration: none;
+    color: rgb(0, 255, 255);
+    background-color: black;
+}
+
+li>p {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    width: 150px;
+    
+}
+
+ul>li>p {
+    list-style: none;
+    background-color: rgb(255, 0, 0);
+}
+
+
+/* Seletor descendente */
+
+ol a {
+   background-color: green;
+   color: black; 
+}
+
+/* Seletor adjascente */
+
+h2+p {
+    color: blue;
+}
+
+/* Seletor de irmão geral */
+
+div h2~p {
+    color: blue;
+}
