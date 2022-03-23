@@ -1,0 +1,68 @@
+/*
+Herança e especificidade*/
+
+body { /*Usado no body para aplicar formatações genericas*/
+    /*Border e Background não são herdados*/
+    border: 1px solid blue;
+    background: grey; 
+}
+
+/*
+
+**Elementos exatamente iguais, sempre será considerado o ultimo aplicado**
+
+Exemplo:
+p { 
+    color: red;
+}
+
+p { 
+    color: blue; 
+}
+Aqui, as letras do paragrafo <p> ficará azul
+*/
+
+/*
+Exceto se o seletor "!important" for aplicado, neste caso o "!important" sempre
+prevalecerá
+*/
+/*Exemplo:*/
+p { 
+    color: red !important;
+}
+
+p { 
+    color: blue; 
+}
+
+/*Se um seletor for mais especifico que outro, o mais 
+especifica será aplicado (terá precedencia sobre as regras
+mais gerais.)
+*/
+/*Exemplo:*/
+
+/*1*/h2#amarelo {/*Id é mais especifico que uma class*/
+    color: yellow;
+}
+
+/*2*/h2.verde{
+    color: green;
+}
+
+/*3*/h2 {
+    color: blue;
+}
+
+/*4*/* {
+    color: red;
+}
+
+
+
+
+
+
+
+
+
+
