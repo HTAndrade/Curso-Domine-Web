@@ -57,6 +57,13 @@ mais gerais.)
     color: red;
 }
 
+/*Ordem de especificidade:
+1º ID
+2º Class
+3º tags
+4º *(asterisco)
+*/
+
 
 
 
